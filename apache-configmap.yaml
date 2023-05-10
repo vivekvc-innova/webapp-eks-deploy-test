@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apache-html-files
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Welcome to My Web Page</title>
+      </head>
+      <body>
+        <h1>Hello, World!</h1>
+        <p>This is a simple web page hosted on Apache2 in an EKS cluster.</p>
+      </body>
+    </html>
+
